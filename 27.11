@@ -1,0 +1,28 @@
+import os
+os.system('cls')
+lista = [['Kurowski', 5.1, 2.0, 4.0],['Styn', 4.8, 3.2, 5.7],['Szleser', 6.0, 5.9, 4.0]]
+#lista2 = [['Paweł', 4.2 ,5.1, 2.3]]
+#lista.append(9)
+#lista.append('Michał')
+#lista.insert(3,'Maciek')
+#lista.pop(4)
+#lista.index('Maciek')
+#lista.reverse()
+#lista.copy()
+#lista.extend(lista2)
+#lista.sort()
+print(lista[0])
+_________________________
+
+N = 5
+a = [0] * N
+def wprowadz_dane():
+    for i in range(N):
+        a[i] = int(input('Podaj liczbe: '))
+        
+def wyprowadz_dane():
+    for i in range(N):
+        print(a[i])
+wprowadz_dane()
+wyprowadz_dane()
+ 
